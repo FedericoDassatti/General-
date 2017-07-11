@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/brown"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.displayoffline.View.Fragments.FragmentDetail">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_margin="30dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/brown"
+        app:cardCornerRadius="20dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardUseCompatPadding="true"
+        >
+
+    <ImageView
+        android:id="@+id/imageDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sand"
+        android:layout_gravity="center"
+        />
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/titleDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:text="title"/>
+
+    <TextView
+        android:id="@+id/albumDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:text="album"/>
+
+    <TextView
+        android:id="@+id/trackDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:text="track"/>
+
+
+
+
+</LinearLayout>
